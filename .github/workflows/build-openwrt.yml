@@ -29,6 +29,13 @@ jobs:
     steps:
     - name: SSH connection to Actions
       uses: P3TERX/debugger-action@master
+   
+jobs:
+  Ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+    - name: SSH connection to Actions
+      uses: P3TERX/debugger-action@master
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
